@@ -1,0 +1,18 @@
+.katex {
+  padding: 10px 0;
+}
+
+.formula {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.katex input,
+.simple-image [contenteditable] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e4e4e4;
+  border-radius: 3px;
+  outline: none;
+  font-size: 14px;
+}

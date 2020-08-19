@@ -1,0 +1,40 @@
+{
+  "name": "editorjs-katex",
+  "version": "1.0.18",
+  "description": "",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4rtur8/editorjs-katex.git"
+  },
+  "keywords": [],
+  "author": "4rtur8",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4rtur8/editorjs-katex/issues"
+  },
+  "homepage": "https://github.com/4rtur8/editorjs-katex#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.1",
+    "eslint": "^7.7.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "file-loader": "^6.0.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "katex": "^0.12.0"
+  }
+}
